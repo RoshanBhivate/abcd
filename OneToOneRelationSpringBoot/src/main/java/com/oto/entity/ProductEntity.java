@@ -19,7 +19,7 @@ public class ProductEntity {
 	@JoinColumn(name = "user_id")
 	private CustomerEntity customer;
 	
-	 
+	 //this is new
 	
 	public Integer getProductId() {
 		return productId;
